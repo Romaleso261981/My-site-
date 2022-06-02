@@ -1,0 +1,120 @@
+.footer {
+  background: var(--dark-grey);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  @media screen and(min-width: 1200px) {
+    text-align: left;
+  }
+  .container {
+    @media screen and(min-width: 768px) {
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    @media screen and(min-width: 1200px) {
+            justify-content: flex-start;
+    }
+    // display: flex;
+    // align-items: baseline;
+  }
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--blue);
+}
+.footer-colortext {
+  color: var(--white-color);
+}
+.footer-address {
+  margin-top: 20px;
+  font-style: normal;
+}
+.footer-address-link {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.footer-soc-content {
+  margin-bottom: 60px;
+  @media screen and(min-width: 1200px) {
+   margin-bottom: 0;
+   margin-right: auto;
+  }
+  // justify-content: center;
+  // margin-left: 70px;
+}
+
+.footer-soc-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-soc-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-client-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--bg-soc-link);
+  &:hover,
+  &:focus {
+    background-color: var(--blue-button);
+  }
+}
+
+.footer-icon {
+  fill: var(--white-color);
+}
+.footer-mail-link {
+  margin-top: 9px;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primery-white-color);
+}
+
+.footer-tel-link {
+  margin-top: 9px;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primery-white-color);
+}
+
+.adress-box {
+  margin-bottom: 60px;
+  @media screen and(min-width: 1200px) {
+   margin-bottom: 0;
+   margin-right: 70px;
+  }
+
+}

@@ -1,0 +1,25 @@
+  
+@import "./utils/plasholders";
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./base/reset-style";
+
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/our-works";
+@import "./layout/description";
+@import "./layout/our-team";
+@import "./layout/constant-client";
+@import "./layout/footer";
+@import "./layout/subscription-form";
+@import "./layout/card-set";
+@import "./layout/portfolio";
+
+
+@import "./components/navigation-btn";
+@import "./components/top-text";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/container";
+@import "./components/mob-menu";
